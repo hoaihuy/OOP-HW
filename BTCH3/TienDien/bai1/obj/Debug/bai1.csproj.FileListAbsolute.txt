@@ -1,0 +1,7 @@
+E:\Documents\OPP\BTCH3\TienDien\bai1\obj\Debug\bai1.csprojAssemblyReference.cache
+E:\Documents\OPP\BTCH3\TienDien\bai1\obj\Debug\bai1.csproj.CoreCompileInputs.cache
+E:\Documents\OPP\BTCH3\TienDien\bai1\bin\Debug\bai1.exe.config
+E:\Documents\OPP\BTCH3\TienDien\bai1\bin\Debug\bai1.exe
+E:\Documents\OPP\BTCH3\TienDien\bai1\bin\Debug\bai1.pdb
+E:\Documents\OPP\BTCH3\TienDien\bai1\obj\Debug\bai1.exe
+E:\Documents\OPP\BTCH3\TienDien\bai1\obj\Debug\bai1.pdb

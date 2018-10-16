@@ -1,0 +1,7 @@
+E:\Documents\OPP\BTCH3\bai5\bai5\bin\Debug\bai5.exe.config
+E:\Documents\OPP\BTCH3\bai5\bai5\bin\Debug\bai5.exe
+E:\Documents\OPP\BTCH3\bai5\bai5\bin\Debug\bai5.pdb
+E:\Documents\OPP\BTCH3\bai5\bai5\obj\Debug\bai5.csprojAssemblyReference.cache
+E:\Documents\OPP\BTCH3\bai5\bai5\obj\Debug\bai5.csproj.CoreCompileInputs.cache
+E:\Documents\OPP\BTCH3\bai5\bai5\obj\Debug\bai5.exe
+E:\Documents\OPP\BTCH3\bai5\bai5\obj\Debug\bai5.pdb

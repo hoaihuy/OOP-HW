@@ -1,0 +1,2 @@
+C:\Users\MyPC\source\repos\Employee\Baitap3\obj\Debug\Baitap3.csprojAssemblyReference.cache
+C:\Users\MyPC\source\repos\Employee\Baitap3\obj\Debug\Baitap3.csproj.CoreCompileInputs.cache

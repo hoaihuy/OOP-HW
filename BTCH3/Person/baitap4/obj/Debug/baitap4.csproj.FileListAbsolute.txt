@@ -1,0 +1,7 @@
+C:\Users\MyPC\source\repos\Person\baitap4\bin\Debug\baitap4.exe.config
+C:\Users\MyPC\source\repos\Person\baitap4\bin\Debug\baitap4.exe
+C:\Users\MyPC\source\repos\Person\baitap4\bin\Debug\baitap4.pdb
+C:\Users\MyPC\source\repos\Person\baitap4\obj\Debug\baitap4.csprojAssemblyReference.cache
+C:\Users\MyPC\source\repos\Person\baitap4\obj\Debug\baitap4.csproj.CoreCompileInputs.cache
+C:\Users\MyPC\source\repos\Person\baitap4\obj\Debug\baitap4.exe
+C:\Users\MyPC\source\repos\Person\baitap4\obj\Debug\baitap4.pdb
