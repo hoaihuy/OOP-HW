@@ -19,7 +19,7 @@ namespace Baitap3
             this.sales = sales;
         }
         
-        public string DisplayStat()
+        public new string DisplayStat()
         {
             return base.DisplayStat()
                 + string.Format("Commission: {0}; " +

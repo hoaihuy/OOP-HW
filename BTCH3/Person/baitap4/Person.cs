@@ -12,6 +12,27 @@ namespace baitap4
         private int age;
         private string nationality;
         
+        public string Name
+        {
+            get { return this.name; }
+            set { name = value; }
+
+        }
+
+        public int Age
+        {
+            get { return this.age; }
+            set { age = value; }
+
+        }
+
+        public string Nationality
+        {
+            get { return this.nationality; }
+            set { nationality = value; }
+
+        }
+
         public Person() { }
 
         public Person(string name, int age, string nation)
@@ -24,8 +45,8 @@ namespace baitap4
         public void Display()
         {
             Console.WriteLine("Name: " + this.name);
-            Console.WriteLine("Age: " + this.age);
-            Console.WriteLine("Nationality: " + this.nationality);
+            Console.WriteLine("--Age: " + this.age);
+            Console.WriteLine("--Nationality: " + this.nationality);
         }
 
     }

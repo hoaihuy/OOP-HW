@@ -14,7 +14,7 @@ namespace Baitap3
         {
             this.salary = salary;
         }
-        public string DisplayStat()
+        public new string DisplayStat()
         {
             return base.DisplayStat()
                 + string.Format("Salary: {0}", this.salary);

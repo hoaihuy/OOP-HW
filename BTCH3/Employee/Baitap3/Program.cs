@@ -21,19 +21,19 @@ namespace Baitap3
 
                 string c = Console.ReadLine();
 
-                string name;				// variables used by all employee types
-                int year;
-                int month;
-                int day;
-                string street;
-                string city;
+                string name="";				// variables used by all employee types
+                int year=0;
+                int month=0;
+                int day=0;
+                string street="";
+                string city="";
 
                 switch (c)
                 {
                     case "1":	// waged employee
                         {
-                            double wage;
-                            double hours;
+                            double wage=0;
+                            double hours=0;
                             Input("Name", ref name);
                             Input("Wage", ref wage);
                             Input("Hours", ref hours);
@@ -50,7 +50,7 @@ namespace Baitap3
 
                     case "2":	// salaried employee
                         {
-                            double salary;
+                            double salary=0;
                             Input("Name", ref name);
                             Input("Salary", ref salary);
                             Input("Year", ref year);
@@ -66,9 +66,9 @@ namespace Baitap3
 
                     case "3":	// sales employee
                         {
-                            double salary;
-                            double commission;
-                            double sales;
+                            double salary=0;
+                            double commission=0;
+                            double sales=0;
                             Input("Name", ref name);
                             Input("Salary", ref salary);
                             Input("Commission", ref commission);

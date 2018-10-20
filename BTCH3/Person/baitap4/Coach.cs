@@ -15,5 +15,18 @@ namespace baitap4
             get { return this.year; }
             set { this.year = value; }
         }
+
+        public Coach() { }
+        public Coach(string name, int age, string nationality,int year)
+            :base(name,age,nationality)
+        {
+            this.year = year;
+        }
+
+        public new void Display()
+        {
+            base.Display();
+            Console.WriteLine("Year: "+this.year);
+        }
     }
 }

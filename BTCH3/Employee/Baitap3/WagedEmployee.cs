@@ -19,7 +19,7 @@ namespace Baitap3
             this.hours = hours;
         }
 
-        public string DisplayStat()
+        public new string DisplayStat()
         {
             return base.DisplayStat()
                 + string.Format("Wage: {0}; " +
