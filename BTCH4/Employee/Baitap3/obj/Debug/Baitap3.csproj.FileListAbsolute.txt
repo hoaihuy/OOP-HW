@@ -1,0 +1,16 @@
+C:\Users\MyPC\source\repos\Employee\Baitap3\obj\Debug\Baitap3.csprojAssemblyReference.cache
+C:\Users\MyPC\source\repos\Employee\Baitap3\obj\Debug\Baitap3.csproj.CoreCompileInputs.cache
+E:\Documents\OPP\BTCH3\Employee\Baitap3\obj\Debug\Baitap3.csprojAssemblyReference.cache
+E:\Documents\OPP\BTCH3\Employee\Baitap3\obj\Debug\Baitap3.csproj.CoreCompileInputs.cache
+E:\Documents\OPP\BTCH3\Employee\Baitap3\bin\Debug\Baitap3.exe.config
+E:\Documents\OPP\BTCH3\Employee\Baitap3\bin\Debug\Baitap3.exe
+E:\Documents\OPP\BTCH3\Employee\Baitap3\bin\Debug\Baitap3.pdb
+E:\Documents\OPP\BTCH3\Employee\Baitap3\obj\Debug\Baitap3.exe
+E:\Documents\OPP\BTCH3\Employee\Baitap3\obj\Debug\Baitap3.pdb
+E:\Documents\OOP\BTCH4\Employee\Baitap3\bin\Debug\Baitap3.exe.config
+E:\Documents\OOP\BTCH4\Employee\Baitap3\bin\Debug\Baitap3.exe
+E:\Documents\OOP\BTCH4\Employee\Baitap3\bin\Debug\Baitap3.pdb
+E:\Documents\OOP\BTCH4\Employee\Baitap3\obj\Debug\Baitap3.csprojAssemblyReference.cache
+E:\Documents\OOP\BTCH4\Employee\Baitap3\obj\Debug\Baitap3.csproj.CoreCompileInputs.cache
+E:\Documents\OOP\BTCH4\Employee\Baitap3\obj\Debug\Baitap3.exe
+E:\Documents\OOP\BTCH4\Employee\Baitap3\obj\Debug\Baitap3.pdb
