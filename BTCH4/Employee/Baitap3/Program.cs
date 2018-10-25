@@ -10,7 +10,9 @@ namespace Baitap3
     {
         static void Main(string[] args)
         {
-            int x = 0;
+            // int x = 0;
+            // Employee[] e = new Employee[100];
+            List l = new List(); 
             while (true)
             {
                 Console.WriteLine();
@@ -30,7 +32,7 @@ namespace Baitap3
                 string city;
                 
                 // tao ra mot mang kieu Empoy chua 100 phan tu
-                Employee[] e = new Employee[100];
+                
                 switch (c)
                 {
                     case "1":	// waged employee
@@ -45,10 +47,13 @@ namespace Baitap3
                             Input("Date", out day);
                             Input("Street", out street);
                             Input("City", out city);
-                            e[x] = new WagedEmployee(name, year, month, day, wage, hours);
-                            x++;
-                            //we.SetAddress(street, city);
-                            //Console.WriteLine(we.DisplayStat());
+                            // e[x] = new WagedEmployee(name, year, month, day, wage, hours);
+                            // e[x].SetAddress(street, city);
+                            // Console.WriteLine(e[x].DisplayStat());
+                            // x++;
+                            WagedEmployee we = new WagedEmployee(name, year, month, day, wage, hours);
+                            we.SetAddress(street, city);
+                            l.Insert(we);
                             break;
                         }
 
@@ -62,9 +67,13 @@ namespace Baitap3
                             Input("Date", out day);
                             Input("Street", out street);
                             Input("City", out city);
+                            //  e[x] = new SalariedEmployee(name, year, month, day, salary);
+                            //  e[x].SetAddress(street, city);
+                            //  Console.WriteLine(e[x].DisplayStat());
+                            // x++;
                             SalariedEmployee se = new SalariedEmployee(name, year, month, day, salary);
                             se.SetAddress(street, city);
-                            //Console.WriteLine(se.DisplayStat());
+                            l.Insert(se);
                             break;
                         }
 
@@ -82,25 +91,25 @@ namespace Baitap3
                             Input("Date", out day);
                             Input("Street", out street);
                             Input("City", out city);
+                            //  e[x] = new SalesEmployee(name, year, month, day, salary, commission, sales);
+                            // e[x].SetAddress(street, city);
+                            //  Console.WriteLine(e[x].DisplayStat());
+                            //  x++;
                             SalesEmployee se = new SalesEmployee(name, year, month, day, salary, commission, sales);
                             se.SetAddress(street, city);
-                            //Console.WriteLine(se.DisplayStat());
+                            l.Insert(se);
                             break;
                         }
 
                     case "4":
                         {
                             //in ra tat ca thong tin tren mang
-                            foreach (Employee dem in e)
-                            {
-                                if (dem is WagedEmployee)
-                                {
-                                    WagedEmployee w = dem as WagedEmployee;
-                                    Console.WriteLine(w.DisplayStat());
-                                }
-                                Console.WriteLine(dem.DisplayStat());
-                            }
 
+                            //for(int i=0;i<x;i++)
+                            //{
+                            //    Console.WriteLine(e[i].DisplayStat());
+                            //}
+                            l.PrintList();
                             Environment.Exit(0);
                             break;
                         }

@@ -8,9 +8,15 @@ namespace Baitap3
 {
     class Employee
     {
-        private string name=" ";
+        private string name;
         private Address adress=null;
         private Date date;
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
 
         public Employee(string name, int year, int month, int day)
         {
