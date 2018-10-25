@@ -8,29 +8,28 @@ namespace bai2
 {
     class MayLaser : May
     {
-        protected int dophangiai;
-        protected double tocdoin;
+        protected int DoPhanGiai { get; set; }
+        protected double TocDoIn { get; set; }
        
+
         public override void Input()
         {
             Console.WriteLine("May in laser");
             base.Input();
 
             Console.Write("Nhap do phan giai:");
-            this.dophangiai = int.Parse(Console.ReadLine());
+            this.DoPhanGiai = int.Parse(Console.ReadLine());
 
             Console.Write("Nhap toc do in :");
-            this.tocdoin = double.Parse(Console.ReadLine());
+            this.TocDoIn = double.Parse(Console.ReadLine());
         }
 
         public override string Display()
         {
-            return string.Format("Trong luong {0}; " +
-                "Nam san xuat: {1}; " +
-                "Hang san xuat: {0};" + 
-                "do phan giai: {0}; " +
+            return base.Display()
+                + string.Format("Do phan giai: {0}; " +
                 "Toc do in: {1}",
-                this.tr_luong, this.nsx, this.hsx, this.dophangiai,this.tocdoin);
+                this.DoPhanGiai,this.TocDoIn);
 
         }
     }

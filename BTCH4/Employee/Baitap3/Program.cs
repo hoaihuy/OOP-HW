@@ -10,6 +10,7 @@ namespace Baitap3
     {
         static void Main(string[] args)
         {
+            int x = 0;
             while (true)
             {
                 Console.WriteLine();
@@ -27,6 +28,7 @@ namespace Baitap3
                 int day;
                 string street;
                 string city;
+                
                 // tao ra mot mang kieu Empoy chua 100 phan tu
                 Employee[] e = new Employee[100];
                 switch (c)
@@ -43,8 +45,9 @@ namespace Baitap3
                             Input("Date", out day);
                             Input("Street", out street);
                             Input("City", out city);
-                            WagedEmployee we = new WagedEmployee(name, year, month, day, wage, hours);
-                            we.SetAddress(street, city);
+                            e[x] = new WagedEmployee(name, year, month, day, wage, hours);
+                            x++;
+                            //we.SetAddress(street, city);
                             //Console.WriteLine(we.DisplayStat());
                             break;
                         }
@@ -88,14 +91,16 @@ namespace Baitap3
                     case "4":
                         {
                             //in ra tat ca thong tin tren mang
-                            foreach(Employee dem in e)
+                            foreach (Employee dem in e)
                             {
-                                if(dem is WagedEmployee)
+                                if (dem is WagedEmployee)
                                 {
                                     WagedEmployee w = dem as WagedEmployee;
                                     Console.WriteLine(w.DisplayStat());
                                 }
+                                Console.WriteLine(dem.DisplayStat());
                             }
+
                             Environment.Exit(0);
                             break;
                         }
@@ -113,6 +118,7 @@ namespace Baitap3
         {
             Console.WriteLine("{0} : ", message);
             var = int.Parse(Console.ReadLine());
+
         }
 
         static void Input(string message, out double var)

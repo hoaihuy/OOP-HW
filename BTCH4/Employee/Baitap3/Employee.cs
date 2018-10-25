@@ -16,6 +16,7 @@ namespace Baitap3
         {
             this.name = name;
             date = new Date(year, month, day);
+            this.adress = null;
         }
         ~Employee()
         {

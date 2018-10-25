@@ -21,14 +21,14 @@ namespace bai2
 
             
             May [] may = new May[n];
-            bool kt1=false;
-            bool kt2 = false;
+            
             for(int i=0; i<n;i++)
-            { 
-                while(kt1==false || kt2==false)
-                {
-                    Console.WriteLine("Nhap " + "K hoac k de chon May in kim");
-                    Console.WriteLine("Nhap " + "L hoac l de chon May in kim");
+            {
+                bool kt = true;
+                while (kt)
+                { 
+                    Console.WriteLine("Nhap " + "K hoac k de chon May in Kim");
+                    Console.WriteLine("Nhap " + "L hoac l de chon May in Laser");
                     Console.Write("Gia tri nhap: ");
                     string x = Console.ReadLine();
                     switch (x)
@@ -40,7 +40,7 @@ namespace bai2
                                 may[i] = new MayKim();
                                 may[i].Input();
                                 Console.WriteLine();
-                                kt1 = true;
+                                kt = false;
                                 break;
                             }
                         case "L":
@@ -49,68 +49,37 @@ namespace bai2
                                 may[i] = new MayLaser();
                                 may[i].Input();
                                 Console.WriteLine();
-                                kt2 = true;
+                                kt = false;
                                 break;
                             }
                         default:
-                            {
-                                Console.WriteLine("Nhap sai, xin nhap lai");
-                                kt1 = false;
-                                kt2 = false;
-                                Console.WriteLine();
-                                break;
-                            }
+                            Console.WriteLine("Nhap sai! Vui long nhap lai");
+                            break;
                     }
-
                 }
 
             }
 
             Console.WriteLine();
-            //input
-            //foreach (May dem in may)
-            //{
 
-            //    dem.Input();
-            //    Console.WriteLine();
-            //}
-
-
-
-            //display
             foreach (May dem in may)
             {
-                if (dem is MayKim)
-                {
-                    MayKim k = dem as MayKim;
-                    Console.WriteLine("May Kim: {0}", k.Display());
-                }
+                //if (dem is MayKim)
+                //{
+                //    MayKim k = dem as MayKim;
+                //    Console.WriteLine("May Kim: {0}", k.Display());
+                //}
 
-                if (dem is MayLaser)
-                {
-                    MayLaser l = dem as MayLaser;
-                    Console.WriteLine("May Laser: {0}", l.Display());
-                }
+                //if (dem is MayLaser)
+                //{
+                //    MayLaser l = dem as MayLaser;
+                //    Console.WriteLine("May Laser: {0}", l.Display());
+                //}
+                Console.WriteLine(dem.Display());
 
                 Console.WriteLine();
             }
 
-            //for(int i=0; i<n;i++)
-            //{
-            //    if (may[i] is MayKim)
-            //    {
-            //        MayKim k = may[i] as MayKim;
-            //        Console.WriteLine("May Kim: {0}", k.Display());
-            //    }
-
-            //    if (may[i] is MayLaser)
-            //    {
-            //        MayLaser l = may[i] as MayLaser;
-            //        Console.WriteLine("May Laser: {0}", l.Display());
-            //    }
-
-            //    Console.WriteLine();
-            //}
 
 
 
