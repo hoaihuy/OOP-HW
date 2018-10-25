@@ -6,26 +6,21 @@ using System.Threading.Tasks;
 
 namespace Baitap4
 {
-    class Letter
+    class Letter : Airmail
     {
-        public string address;
-        public string receiver;
-        public bool kindletter;
-        public double deli_fee;
 
-        public virtual void Input()
+        private bool kindletter;
+        private double deli_fee;
+
+        public override void Input()
         {
-            Console.Write("Enter Address: ");
-            this.address = Console.ReadLine();
-
-            Console.Write("Enter Reciever: ");
-            this.receiver = Console.ReadLine();
-
-            Console.WriteLine("Enter Kind Letter you want send: ");
-            Console.WriteLine("Enter 0 to send normally");
-            Console.WriteLine("Enter 1 to send fast");
-            Console.Write("Enter value: ");
+            base.Input();
+            Console.WriteLine("  Enter Kind Letter you want send: ");
+            Console.WriteLine("    Enter 0 to send normally");
+            Console.WriteLine("    Enter 1 to send fast");
+            Console.Write("   Enter value: ");
             int x = int.Parse(Console.ReadLine());
+            Console.WriteLine();
             switch (x)
             {
                 case 0:
@@ -34,10 +29,23 @@ namespace Baitap4
                 case 1:
                     kindletter = true;
                     break;
+                
             }
 
+            if (kindletter) deli_fee = 5000;
+            else deli_fee = 1000;
         }
 
-        
+        public double Delivery_Fee()
+        {
+            return this.deli_fee;
+        }
+
+        public override void Displate()
+        {
+            base.Displate();
+            Console.WriteLine(Delivery_Fee());
+        }
+
     }
 }

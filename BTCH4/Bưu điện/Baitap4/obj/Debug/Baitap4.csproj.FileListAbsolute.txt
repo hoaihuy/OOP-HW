@@ -1,0 +1,7 @@
+E:\Documents\OOP\BTCH4\Bưu điện\Baitap4\obj\Debug\Baitap4.csprojAssemblyReference.cache
+E:\Documents\OOP\BTCH4\Bưu điện\Baitap4\obj\Debug\Baitap4.csproj.CoreCompileInputs.cache
+E:\Documents\OOP\BTCH4\Bưu điện\Baitap4\bin\Debug\Baitap4.exe.config
+E:\Documents\OOP\BTCH4\Bưu điện\Baitap4\bin\Debug\Baitap4.exe
+E:\Documents\OOP\BTCH4\Bưu điện\Baitap4\bin\Debug\Baitap4.pdb
+E:\Documents\OOP\BTCH4\Bưu điện\Baitap4\obj\Debug\Baitap4.exe
+E:\Documents\OOP\BTCH4\Bưu điện\Baitap4\obj\Debug\Baitap4.pdb
