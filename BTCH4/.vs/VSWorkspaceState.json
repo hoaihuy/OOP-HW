@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Bưu điện\\Baitap4",
-    "\\Employee\\Baitap3",
-    "\\Employee\\Baitap3\\obj"
+    "\\abs",
+    "\\abs\\Employee"
   ],
-  "SelectedNode": "\\Bưu điện",
+  "SelectedNode": "\\abs\\Employee\\Employee.sln",
   "PreviewInSolutionExplorer": false
 }
