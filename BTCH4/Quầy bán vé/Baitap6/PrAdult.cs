@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Baitap6
 {
-    class Adult
+    class PrAdult:Price
     {
+        double price = 10;
+        public override double Pay(int num)
+        {
+            return num * price;
+        }
     }
 }

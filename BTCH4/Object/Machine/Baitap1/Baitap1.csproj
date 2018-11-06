@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C629455-D7FE-4A6B-8FA1-46B892DE645C}</ProjectGuid>
+    <ProjectGuid>{49D9F8E9-B73B-457F-9172-47EAEB01D588}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Baitap6</RootNamespace>
-    <AssemblyName>Baitap6</AssemblyName>
+    <RootNamespace>Baitap1</RootNamespace>
+    <AssemblyName>Baitap1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoxOffice.cs" />
-    <Compile Include="PrAdult.cs" />
-    <Compile Include="PrChildren.cs" />
-    <Compile Include="PrElderly.cs" />
-    <Compile Include="Price.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

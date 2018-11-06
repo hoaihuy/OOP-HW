@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baitap5", "baitap5\baitap5.csproj", "{8AC9CCE2-5EB1-4654-BB4C-A1FCF87EE5A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baitap3", "Baitap3\Baitap3.csproj", "{18775C29-D3E4-4B2D-BCCC-68049436A322}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AC9CCE2-5EB1-4654-BB4C-A1FCF87EE5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AC9CCE2-5EB1-4654-BB4C-A1FCF87EE5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AC9CCE2-5EB1-4654-BB4C-A1FCF87EE5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AC9CCE2-5EB1-4654-BB4C-A1FCF87EE5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18775C29-D3E4-4B2D-BCCC-68049436A322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18775C29-D3E4-4B2D-BCCC-68049436A322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18775C29-D3E4-4B2D-BCCC-68049436A322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18775C29-D3E4-4B2D-BCCC-68049436A322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D04B559B-4302-454C-A8FF-A29E311FEE5B}
+		SolutionGuid = {56EEE14D-AF05-4739-ACD6-34177B5376D4}
 	EndGlobalSection
 EndGlobal

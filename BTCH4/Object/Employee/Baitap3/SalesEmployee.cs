@@ -19,20 +19,12 @@ namespace Baitap3
             this.sales = sales;
         }
 
-        public override double CalcPay()
+        
+        public override string Tostring()
         {
-            return base.CalcPay()
-                + this.commission * this.sales;
-        }
-
-        public override string DisplayStat()
-        {
-            return string.Format("Name: {0}; " +
-                "Ngay sinh: {1}; " +
-                "Dia chi: {2}; " + 
-                "Commission: {3}; " +
-                "Sales: {4} " +
-                 "CalcPay: {5}", this.name, this.date.DisplayStat(), this.adress.DisplayStat(), this.commission, this.sales,this.CalcPay());
+            return base.Tostring()
+                + string.Format("Commission: {0}; " +
+                "Sales: {1}", this.commission, this.sales);
         }
     }
 }

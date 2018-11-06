@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C629455-D7FE-4A6B-8FA1-46B892DE645C}</ProjectGuid>
+    <ProjectGuid>{18775C29-D3E4-4B2D-BCCC-68049436A322}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Baitap6</RootNamespace>
-    <AssemblyName>Baitap6</AssemblyName>
+    <RootNamespace>Baitap3</RootNamespace>
+    <AssemblyName>Baitap3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoxOffice.cs" />
-    <Compile Include="PrAdult.cs" />
-    <Compile Include="PrChildren.cs" />
-    <Compile Include="PrElderly.cs" />
-    <Compile Include="Price.cs" />
+    <Compile Include="Address.cs" />
+    <Compile Include="Date.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="List.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalariedEmployee.cs" />
+    <Compile Include="SalesEmployee.cs" />
+    <Compile Include="WagedEmployee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

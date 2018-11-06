@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4644607A-2B48-4AF7-B7AC-3484D4528FBE}</ProjectGuid>
+    <ProjectGuid>{8AC9CCE2-5EB1-4654-BB4C-A1FCF87EE5A1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Baitap4</RootNamespace>
-    <AssemblyName>Baitap4</AssemblyName>
+    <RootNamespace>baitap5</RootNamespace>
+    <AssemblyName>baitap5</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employee.cs" />
     <Compile Include="Insure.cs" />
+    <Compile Include="InsureL.cs" />
+    <Compile Include="InsureS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Staff.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

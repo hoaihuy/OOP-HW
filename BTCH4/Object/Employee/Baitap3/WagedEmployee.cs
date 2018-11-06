@@ -19,20 +19,11 @@ namespace Baitap3
             this.hours = hours;
         }
 
-        public override double CalcPay()
+        public override string Tostring()
         {
-            return wage * hours;
-        }
-
-
-        public override string DisplayStat()
-        {
-            return string.Format("Name: {0}; " +
-                "Ngay sinh: {1}; " +
-                "Dia chi: {2}; " +
-                "Wage: {3}; " +
-                "Hours: {4} " +
-                "CalcPay: {5}",this.name,this.date.DisplayStat(),this.adress.DisplayStat(),this.wage, this.hours,this.CalcPay());
+            return base.Tostring()
+                + string.Format("Wage: {0}; " +
+                "Hours: {1}", this.wage, this.hours);
         }
     }
 }

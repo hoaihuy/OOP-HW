@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Baitap3
 {
-    abstract class Employee
+    class Employee
     {
-        protected string name;
-        protected Address adress;
-        protected Date date;
+        private string name;
+        private Address adress=null;
+        private Date date;
 
         public string Name
         {
@@ -29,14 +29,19 @@ namespace Baitap3
             adress = null;
             date = null;
         }
-        public  void SetAddress(string street,string city)
+        public void SetAddress(string street, string city)
         {
-            adress= new Address(street,city);
+            adress= new Address(street, city);
         }
 
-        public abstract double CalcPay();
-
-        public abstract string DisplayStat();
+        public virtual string Tostring()
+        {
+            return string.Format("Name: {0}; " +
+                "Ngay sinh: {1}; " +
+                "Dia chi: {2}; ",this.name,
+                this.date.DisplayStat(),
+                this.adress.DisplayStat());
+        }
 
 
 

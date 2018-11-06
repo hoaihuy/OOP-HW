@@ -15,17 +15,14 @@ namespace Baitap3
             this.salary = salary;
         }
 
-        public override double CalcPay()
+        public double CalcPay()
         {
             return salary / 24;
         }
-        public override string DisplayStat()
+        public override string Tostring()
         {
-            return string.Format("Name: {0}; " +
-                "Ngay sinh: {1}; " +
-                "Dia chi: {2}; " +
-                "Salary: {3} " +
-                 "CalcPay: {4}", this.name, this.date.DisplayStat(), this.adress.DisplayStat(), this.salary,this.CalcPay());
+            return base.Tostring()
+                + string.Format("Salary: {0}", this.salary);
         }
     }
 }

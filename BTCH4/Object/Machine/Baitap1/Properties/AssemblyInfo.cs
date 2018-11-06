@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Baitap4")]
+[assembly: AssemblyTitle("Baitap1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Baitap4")]
+[assembly: AssemblyProduct("Baitap1")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4644607a-2b48-4af7-b7ac-3484d4528fbe")]
+[assembly: Guid("49d9f8e9-b73b-457f-9172-47eaeb01d588")]
 
 // Version information for an assembly consists of the following four values:
 //

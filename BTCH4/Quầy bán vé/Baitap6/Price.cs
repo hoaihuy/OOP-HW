@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Baitap6
 {
-    class Price
+    abstract class Price
     {
+        public abstract double Pay(int num);
 
     }
 }
